@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD43C19A2BEFE21E0025793E /* popupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43C1992BEFE21E0025793E /* popupVC.swift */; };
+		BD7882022BEEFB7D00C404B8 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7882012BEEFB7D00C404B8 /* SecondVC.swift */; };
+		BD99613C2BF5317400B8D86B /* MultipleTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD99613B2BF5317400B8D86B /* MultipleTableViewVC.swift */; };
+		BD99613E2BF535F700B8D86B /* MultipleTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD99613D2BF535F700B8D86B /* MultipleTableViewCell1.swift */; };
+		BD9961402BF5360A00B8D86B /* MultipleTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD99613F2BF5360A00B8D86B /* MultipleTableViewCell2.swift */; };
+		BD9961422BF53BB900B8D86B /* MultipleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9961412BF53BB900B8D86B /* MultipleTableViewController.swift */; };
+		BD9961442BF53BEF00B8D86B /* MultipleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9961432BF53BEF00B8D86B /* MultipleTableViewCell.swift */; };
+		BD9961462BF53DF000B8D86B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9961452BF53DF000B8D86B /* Model.swift */; };
+		BDD70DAB2BEEF72700E80EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD70DAA2BEEF72700E80EDA /* AppDelegate.swift */; };
+		BDD70DAD2BEEF72700E80EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD70DAC2BEEF72700E80EDA /* SceneDelegate.swift */; };
+		BDD70DAF2BEEF72700E80EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD70DAE2BEEF72700E80EDA /* ViewController.swift */; };
+		BDD70DB22BEEF72700E80EDA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDD70DB12BEEF72700E80EDA /* Base */; };
+		BDD70DB42BEEF72900E80EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD70DB32BEEF72900E80EDA /* Assets.xcassets */; };
+		BDD70DB72BEEF72900E80EDA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDD70DB62BEEF72900E80EDA /* Base */; };
+		BDD70DC22BEEF72900E80EDA /* TableViewCreateDeleteDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD70DC12BEEF72900E80EDA /* TableViewCreateDeleteDemoTests.swift */; };
+		BDD70DCC2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD70DCB2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests.swift */; };
+		BDD70DCE2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD70DCD2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITestsLaunchTests.swift */; };
+		BDD70DDB2BEEF7DD00E80EDA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD70DDA2BEEF7DD00E80EDA /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDD70DBE2BEEF72900E80EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD70D9F2BEEF72700E80EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD70DA62BEEF72700E80EDA;
+			remoteInfo = TableViewCreateDeleteDemo;
+		};
+		BDD70DC82BEEF72900E80EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD70D9F2BEEF72700E80EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD70DA62BEEF72700E80EDA;
+			remoteInfo = TableViewCreateDeleteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD43C1992BEFE21E0025793E /* popupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupVC.swift; sourceTree = "<group>"; };
+		BD7882012BEEFB7D00C404B8 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		BD99613B2BF5317400B8D86B /* MultipleTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewVC.swift; sourceTree = "<group>"; };
+		BD99613D2BF535F700B8D86B /* MultipleTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewCell1.swift; sourceTree = "<group>"; };
+		BD99613F2BF5360A00B8D86B /* MultipleTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewCell2.swift; sourceTree = "<group>"; };
+		BD9961412BF53BB900B8D86B /* MultipleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewController.swift; sourceTree = "<group>"; };
+		BD9961432BF53BEF00B8D86B /* MultipleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewCell.swift; sourceTree = "<group>"; };
+		BD9961452BF53DF000B8D86B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BDD70DA72BEEF72700E80EDA /* TableViewCreateDeleteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCreateDeleteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD70DAA2BEEF72700E80EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDD70DAC2BEEF72700E80EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDD70DAE2BEEF72700E80EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDD70DB12BEEF72700E80EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDD70DB32BEEF72900E80EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDD70DB62BEEF72900E80EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDD70DB82BEEF72900E80EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD70DBD2BEEF72900E80EDA /* TableViewCreateDeleteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCreateDeleteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD70DC12BEEF72900E80EDA /* TableViewCreateDeleteDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCreateDeleteDemoTests.swift; sourceTree = "<group>"; };
+		BDD70DC72BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCreateDeleteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD70DCB2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCreateDeleteDemoUITests.swift; sourceTree = "<group>"; };
+		BDD70DCD2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCreateDeleteDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDD70DDA2BEEF7DD00E80EDA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD70DA42BEEF72700E80EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD70DBA2BEEF72900E80EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD70DC42BEEF72900E80EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDD70D9E2BEEF72700E80EDA = {
+			isa = PBXGroup;
+			children = (
+				BDD70DA92BEEF72700E80EDA /* TableViewCreateDeleteDemo */,
+				BDD70DC02BEEF72900E80EDA /* TableViewCreateDeleteDemoTests */,
+				BDD70DCA2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests */,
+				BDD70DA82BEEF72700E80EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD70DA82BEEF72700E80EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD70DA72BEEF72700E80EDA /* TableViewCreateDeleteDemo.app */,
+				BDD70DBD2BEEF72900E80EDA /* TableViewCreateDeleteDemoTests.xctest */,
+				BDD70DC72BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD70DA92BEEF72700E80EDA /* TableViewCreateDeleteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BDD70DAA2BEEF72700E80EDA /* AppDelegate.swift */,
+				BDD70DAC2BEEF72700E80EDA /* SceneDelegate.swift */,
+				BDD70DAE2BEEF72700E80EDA /* ViewController.swift */,
+				BDD70DB02BEEF72700E80EDA /* Main.storyboard */,
+				BD9961452BF53DF000B8D86B /* Model.swift */,
+				BD9961432BF53BEF00B8D86B /* MultipleTableViewCell.swift */,
+				BD9961412BF53BB900B8D86B /* MultipleTableViewController.swift */,
+				BD99613F2BF5360A00B8D86B /* MultipleTableViewCell2.swift */,
+				BD99613D2BF535F700B8D86B /* MultipleTableViewCell1.swift */,
+				BD99613B2BF5317400B8D86B /* MultipleTableViewVC.swift */,
+				BD43C1992BEFE21E0025793E /* popupVC.swift */,
+				BD7882012BEEFB7D00C404B8 /* SecondVC.swift */,
+				BDD70DDA2BEEF7DD00E80EDA /* TableViewCell.swift */,
+				BDD70DB32BEEF72900E80EDA /* Assets.xcassets */,
+				BDD70DB52BEEF72900E80EDA /* LaunchScreen.storyboard */,
+				BDD70DB82BEEF72900E80EDA /* Info.plist */,
+			);
+			path = TableViewCreateDeleteDemo;
+			sourceTree = "<group>";
+		};
+		BDD70DC02BEEF72900E80EDA /* TableViewCreateDeleteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD70DC12BEEF72900E80EDA /* TableViewCreateDeleteDemoTests.swift */,
+			);
+			path = TableViewCreateDeleteDemoTests;
+			sourceTree = "<group>";
+		};
+		BDD70DCA2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD70DCB2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests.swift */,
+				BDD70DCD2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITestsLaunchTests.swift */,
+			);
+			path = TableViewCreateDeleteDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD70DA62BEEF72700E80EDA /* TableViewCreateDeleteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD70DD12BEEF72900E80EDA /* Build configuration list for PBXNativeTarget "TableViewCreateDeleteDemo" */;
+			buildPhases = (
+				BDD70DA32BEEF72700E80EDA /* Sources */,
+				BDD70DA42BEEF72700E80EDA /* Frameworks */,
+				BDD70DA52BEEF72700E80EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewCreateDeleteDemo;
+			productName = TableViewCreateDeleteDemo;
+			productReference = BDD70DA72BEEF72700E80EDA /* TableViewCreateDeleteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDD70DBC2BEEF72900E80EDA /* TableViewCreateDeleteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD70DD42BEEF72900E80EDA /* Build configuration list for PBXNativeTarget "TableViewCreateDeleteDemoTests" */;
+			buildPhases = (
+				BDD70DB92BEEF72900E80EDA /* Sources */,
+				BDD70DBA2BEEF72900E80EDA /* Frameworks */,
+				BDD70DBB2BEEF72900E80EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD70DBF2BEEF72900E80EDA /* PBXTargetDependency */,
+			);
+			name = TableViewCreateDeleteDemoTests;
+			productName = TableViewCreateDeleteDemoTests;
+			productReference = BDD70DBD2BEEF72900E80EDA /* TableViewCreateDeleteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDD70DC62BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD70DD72BEEF72900E80EDA /* Build configuration list for PBXNativeTarget "TableViewCreateDeleteDemoUITests" */;
+			buildPhases = (
+				BDD70DC32BEEF72900E80EDA /* Sources */,
+				BDD70DC42BEEF72900E80EDA /* Frameworks */,
+				BDD70DC52BEEF72900E80EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD70DC92BEEF72900E80EDA /* PBXTargetDependency */,
+			);
+			name = TableViewCreateDeleteDemoUITests;
+			productName = TableViewCreateDeleteDemoUITests;
+			productReference = BDD70DC72BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD70D9F2BEEF72700E80EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BDD70DA62BEEF72700E80EDA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BDD70DBC2BEEF72900E80EDA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BDD70DA62BEEF72700E80EDA;
+					};
+					BDD70DC62BEEF72900E80EDA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BDD70DA62BEEF72700E80EDA;
+					};
+				};
+			};
+			buildConfigurationList = BDD70DA22BEEF72700E80EDA /* Build configuration list for PBXProject "TableViewCreateDeleteDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDD70D9E2BEEF72700E80EDA;
+			productRefGroup = BDD70DA82BEEF72700E80EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD70DA62BEEF72700E80EDA /* TableViewCreateDeleteDemo */,
+				BDD70DBC2BEEF72900E80EDA /* TableViewCreateDeleteDemoTests */,
+				BDD70DC62BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD70DA52BEEF72700E80EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD70DB42BEEF72900E80EDA /* Assets.xcassets in Resources */,
+				BDD70DB72BEEF72900E80EDA /* Base in Resources */,
+				BDD70DB22BEEF72700E80EDA /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD70DBB2BEEF72900E80EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD70DC52BEEF72900E80EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD70DA32BEEF72700E80EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD99613C2BF5317400B8D86B /* MultipleTableViewVC.swift in Sources */,
+				BDD70DAF2BEEF72700E80EDA /* ViewController.swift in Sources */,
+				BD7882022BEEFB7D00C404B8 /* SecondVC.swift in Sources */,
+				BD9961462BF53DF000B8D86B /* Model.swift in Sources */,
+				BD9961422BF53BB900B8D86B /* MultipleTableViewController.swift in Sources */,
+				BDD70DDB2BEEF7DD00E80EDA /* TableViewCell.swift in Sources */,
+				BDD70DAB2BEEF72700E80EDA /* AppDelegate.swift in Sources */,
+				BDD70DAD2BEEF72700E80EDA /* SceneDelegate.swift in Sources */,
+				BD9961402BF5360A00B8D86B /* MultipleTableViewCell2.swift in Sources */,
+				BD43C19A2BEFE21E0025793E /* popupVC.swift in Sources */,
+				BD99613E2BF535F700B8D86B /* MultipleTableViewCell1.swift in Sources */,
+				BD9961442BF53BEF00B8D86B /* MultipleTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD70DB92BEEF72900E80EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD70DC22BEEF72900E80EDA /* TableViewCreateDeleteDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD70DC32BEEF72900E80EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD70DCE2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITestsLaunchTests.swift in Sources */,
+				BDD70DCC2BEEF72900E80EDA /* TableViewCreateDeleteDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDD70DBF2BEEF72900E80EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD70DA62BEEF72700E80EDA /* TableViewCreateDeleteDemo */;
+			targetProxy = BDD70DBE2BEEF72900E80EDA /* PBXContainerItemProxy */;
+		};
+		BDD70DC92BEEF72900E80EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD70DA62BEEF72700E80EDA /* TableViewCreateDeleteDemo */;
+			targetProxy = BDD70DC82BEEF72900E80EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDD70DB02BEEF72700E80EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD70DB12BEEF72700E80EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDD70DB52BEEF72900E80EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD70DB62BEEF72900E80EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDD70DCF2BEEF72900E80EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDD70DD02BEEF72900E80EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD70DD22BEEF72900E80EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableViewCreateDeleteDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.TableViewCreateDeleteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDD70DD32BEEF72900E80EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableViewCreateDeleteDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.TableViewCreateDeleteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDD70DD52BEEF72900E80EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.TableViewCreateDeleteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCreateDeleteDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TableViewCreateDeleteDemo";
+			};
+			name = Debug;
+		};
+		BDD70DD62BEEF72900E80EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.TableViewCreateDeleteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCreateDeleteDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TableViewCreateDeleteDemo";
+			};
+			name = Release;
+		};
+		BDD70DD82BEEF72900E80EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.TableViewCreateDeleteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableViewCreateDeleteDemo;
+			};
+			name = Debug;
+		};
+		BDD70DD92BEEF72900E80EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.TableViewCreateDeleteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableViewCreateDeleteDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD70DA22BEEF72700E80EDA /* Build configuration list for PBXProject "TableViewCreateDeleteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD70DCF2BEEF72900E80EDA /* Debug */,
+				BDD70DD02BEEF72900E80EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD70DD12BEEF72900E80EDA /* Build configuration list for PBXNativeTarget "TableViewCreateDeleteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD70DD22BEEF72900E80EDA /* Debug */,
+				BDD70DD32BEEF72900E80EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD70DD42BEEF72900E80EDA /* Build configuration list for PBXNativeTarget "TableViewCreateDeleteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD70DD52BEEF72900E80EDA /* Debug */,
+				BDD70DD62BEEF72900E80EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD70DD72BEEF72900E80EDA /* Build configuration list for PBXNativeTarget "TableViewCreateDeleteDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD70DD82BEEF72900E80EDA /* Debug */,
+				BDD70DD92BEEF72900E80EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDD70D9F2BEEF72700E80EDA /* Project object */;
+}
